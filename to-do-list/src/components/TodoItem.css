@@ -2,6 +2,19 @@
     font-weight: 300;
     font-size: 24px;
     color: #4d4d4d;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: -1px;
+    display: flex;
+}
+.TodoItem>p{
+    margin: 0;
+}
+.TodoItem>img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 .TodoItem-complete{
     text-decoration: line-through;
